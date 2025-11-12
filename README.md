@@ -74,8 +74,31 @@ Wemby/
 ├── index.html          # 主HTML文件
 ├── styles.css          # 样式表
 ├── script.js           # JavaScript交互脚本
-└── README.md          # 项目说明文档
+├── README.md           # 项目说明文档
+└── images/             # 图片文件夹
+    └── IMAGE_GUIDE.md  # 图片使用指南
 ```
+
+## 📸 添加图片
+
+网站已经预留了5个图片位置，需要你添加 Victor Wembanyama 的照片：
+
+1. **wembanyama-profile.jpg** - 个人肖像照（关于部分）
+2. **wembanyama-draft.jpg** - 选秀之夜照片
+3. **wembanyama-debut.jpg** - NBA首秀照片
+4. **wembanyama-scoring.jpg** - 得分瞬间照片
+5. **wembanyama-defense.jpg** - 防守瞬间照片
+
+### 快速添加图片
+
+1. 准备5张 Victor Wembanyama 的照片
+2. 按照上述文件名重命名
+3. 将它们放入 `images/` 文件夹
+4. 刷新浏览器查看效果
+
+📖 **详细说明：** 查看 `images/IMAGE_GUIDE.md` 获取完整的图片要求和指南
+
+⚠️ **注意：** 即使没有添加图片，网站也能正常显示（会显示占位符）
 
 ## 快速开始
 

@@ -268,6 +268,20 @@ body {
     opacity: 0.5;
 }
 
+.profile-photo {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: var(--transition);
+}
+
+.profile-photo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
 .about-text h3 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -487,6 +501,17 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 4rem;
+}
+
+.highlight-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.highlight-card:hover .highlight-image {
+    transform: scale(1.05);
 }
 
 .highlight-card h3 {
