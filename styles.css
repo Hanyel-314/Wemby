@@ -486,6 +486,12 @@ body {
     gap: 2rem;
 }
 
+.highlight-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .highlight-card {
     background: var(--bg-light);
     border-radius: 15px;
@@ -494,7 +500,7 @@ body {
     cursor: pointer;
 }
 
-.highlight-card:hover {
+.highlight-link:hover .highlight-card {
     transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }

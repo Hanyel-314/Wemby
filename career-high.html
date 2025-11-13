@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career High Performance - Victor Wembanyama</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .detail-page {
+            min-height: 100vh;
+            padding-top: 80px;
+            background: var(--bg-light);
+        }
+        .detail-hero {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+            padding: 4rem 0;
+            color: white;
+            text-align: center;
+        }
+        .detail-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .detail-hero .date {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        .back-button {
+            display: inline-block;
+            margin: 2rem 0;
+            padding: 0.8rem 2rem;
+            background: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+        .back-button:hover {
+            background: #ff5722;
+            transform: translateY(-2px);
+        }
+        .detail-content {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+        .detail-image {
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .detail-section {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .detail-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        .detail-section p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .stats-grid-small {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .stat-box {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--bg-light);
+            border-radius: 8px;
+        }
+        .stat-box .number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .stat-box .label {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .scoring-breakdown {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .scoring-breakdown h3 {
+            margin-bottom: 1rem;
+        }
+        .scoring-breakdown ul {
+            list-style: none;
+            padding: 0;
+        }
+        .scoring-breakdown li {
+            padding: 0.5rem 0;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">VICTOR WEMBANYAMA</div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#stats">Stats</a></li>
+                <li><a href="index.html#achievements">Achievements</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="detail-page">
+        <div class="detail-hero">
+            <div class="container">
+                <h1>Career High Performance</h1>
+                <p class="date">Dominant Offensive Display</p>
+            </div>
+        </div>
+
+        <div class="detail-content">
+            <a href="index.html#gallery" class="back-button">← Back to Gallery</a>
+
+            <img src="images/wembanyama-scoring.jpg" alt="Victor Wembanyama Career High" class="detail-image">
+
+            <div class="detail-section">
+                <h2>Historic Scoring Night</h2>
+                <p>Victor Wembanyama showcased his complete offensive arsenal in a career-defining performance that reminded everyone why he was called a generational talent. This wasn't just about scoring points – it was about demonstrating the full range of skills that make him unlike any player in NBA history.</p>
+
+                <p>What made this performance truly special was the efficiency and variety. Wembanyama scored from every level of the floor: driving to the basket with authority, pulling up from mid-range with precision, and stepping out beyond the three-point line with confidence. His 7-foot-4 frame combined with guard-like skills created matchup nightmares that opponents simply couldn't solve.</p>
+            </div>
+
+            <div class="detail-section">
+                <h2>Game Statistics</h2>
+                <div class="stats-grid-small">
+                    <div class="stat-box">
+                        <span class="number">40</span>
+                        <span class="label">Points</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">20</span>
+                        <span class="label">Rebounds</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">7</span>
+                        <span class="label">Blocks</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">58%</span>
+                        <span class="label">FG%</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">5/8</span>
+                        <span class="label">3-Pointers</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">36</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                </div>
+
+                <div class="scoring-breakdown">
+                    <h3>Scoring Breakdown</h3>
+                    <ul>
+                        <li>
+                            <span>Paint Points</span>
+                            <strong>18 points</strong>
+                        </li>
+                        <li>
+                            <span>Mid-Range</span>
+                            <strong>7 points</strong>
+                        </li>
+                        <li>
+                            <span>Three-Pointers</span>
+                            <strong>15 points (5/8)</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <h2>Key Highlights</h2>
+                <p><strong>First Quarter Explosion:</strong> Wembanyama came out aggressive, scoring 15 points in the first quarter alone. He established his dominance early with a mix of post moves and perimeter shooting that set the tone for the entire game.</p>
+
+                <p><strong>40-20 Game:</strong> By achieving a 40-point, 20-rebound performance, Wembanyama joined an elite group of players. This rare feat demonstrated his ability to dominate on both ends of the floor, controlling the paint while also being the primary scoring threat.</p>
+
+                <p><strong>Three-Point Shooting:</strong> His 5-for-8 performance from beyond the arc showcased the shooting ability that makes him virtually unguardable. At 7-foot-4, defenders can't contest his shot without fouling, creating an impossible matchup problem.</p>
+
+                <p><strong>Clutch Performance:</strong> With the game on the line in the fourth quarter, Wembanyama scored 12 of his team's final 16 points, including a game-sealing three-pointer with under a minute remaining.</p>
+            </div>
+
+            <div class="detail-section">
+                <h2>Historic Context</h2>
+                <p>This performance placed Wembanyama in rare company:</p>
+                <ul>
+                    <li>Youngest player in Spurs history to score 40+ points</li>
+                    <li>First rookie to record a 40-20-5 (blocks) game since Shaquille O'Neal</li>
+                    <li>Only the third 7-footer in NBA history to make 5+ three-pointers while scoring 40+ points</li>
+                    <li>First player ever to record 40+ points, 20+ rebounds, and 5+ blocks while shooting over 50% from three</li>
+                </ul>
+            </div>
+
+            <div class="detail-section">
+                <h2>Reactions</h2>
+                <p><strong>ESPN Analyst:</strong> "We're witnessing something we've never seen before. The combination of size, skill, and basketball IQ is unprecedented. This is what people meant when they called him a generational talent."</p>
+
+                <p><strong>Opposing Coach:</strong> "You can game plan all you want, but there's no answer for a 7-foot-4 player who can shoot like a guard, handle like a forward, and protect the rim like a traditional center. He's a nightmare matchup."</p>
+            </div>
+
+            <a href="index.html#gallery" class="back-button">← Back to Gallery</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

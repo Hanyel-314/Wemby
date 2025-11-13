@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defensive Master - Victor Wembanyama</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .detail-page {
+            min-height: 100vh;
+            padding-top: 80px;
+            background: var(--bg-light);
+        }
+        .detail-hero {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+            padding: 4rem 0;
+            color: white;
+            text-align: center;
+        }
+        .detail-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .detail-hero .date {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        .back-button {
+            display: inline-block;
+            margin: 2rem 0;
+            padding: 0.8rem 2rem;
+            background: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+        .back-button:hover {
+            background: #ff5722;
+            transform: translateY(-2px);
+        }
+        .detail-content {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+        .detail-image {
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .detail-section {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .detail-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        .detail-section p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .stats-grid-small {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .stat-box {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--bg-light);
+            border-radius: 8px;
+        }
+        .stat-box .number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .stat-box .label {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .defensive-highlights {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .defensive-highlights ul {
+            list-style: none;
+            padding: 0;
+        }
+        .defensive-highlights li {
+            padding: 1rem;
+            margin: 0.5rem 0;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">VICTOR WEMBANYAMA</div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#stats">Stats</a></li>
+                <li><a href="index.html#achievements">Achievements</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="detail-page">
+        <div class="detail-hero">
+            <div class="container">
+                <h1>Defensive Master</h1>
+                <p class="date">Elite Rim Protection & Defensive Dominance</p>
+            </div>
+        </div>
+
+        <div class="detail-content">
+            <a href="index.html#gallery" class="back-button">← Back to Gallery</a>
+
+            <img src="images/wembanyama-defense.jpg" alt="Victor Wembanyama Defensive Master" class="detail-image">
+
+            <div class="detail-section">
+                <h2>The Defensive Anchor</h2>
+                <p>Victor Wembanyama's defensive impact transcends traditional statistics. While his block numbers are eye-popping, what makes him truly special is the way he alters every single shot attempt in the paint. Opponents don't just worry about getting their shots blocked – they worry about whether they should even attempt a shot when Wembanyama is in the vicinity.</p>
+
+                <p>His combination of height (7'4"), wingspan (8'0"), and exceptional timing creates a defensive presence unlike anything the NBA has seen. He doesn't just protect the rim; he controls entire offensive possessions, forcing teams to completely rethink their game plans.</p>
+            </div>
+
+            <div class="detail-section">
+                <h2>Season Defensive Stats</h2>
+                <div class="stats-grid-small">
+                    <div class="stat-box">
+                        <span class="number">3.6</span>
+                        <span class="label">Blocks Per Game</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">10.6</span>
+                        <span class="label">Rebounds Per Game</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">1.2</span>
+                        <span class="label">Steals Per Game</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">98.5</span>
+                        <span class="label">Defensive Rating</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <h2>Record-Breaking Performances</h2>
+                <div class="defensive-highlights">
+                    <ul>
+                        <li>
+                            <strong>10-Block Game vs. Raptors</strong><br>
+                            Tied the rookie record for most blocks in a single game with 10, becoming only the 4th rookie in NBA history to achieve this feat.
+                        </li>
+                        <li>
+                            <strong>8-Block Triple-Double</strong><br>
+                            Recorded 18 points, 12 rebounds, and 8 blocks, showcasing his all-around impact on both ends of the floor.
+                        </li>
+                        <li>
+                            <strong>5+ Blocks in 15 Games</strong><br>
+                            Led the league in games with 5 or more blocks, demonstrating consistent elite rim protection throughout the season.
+                        </li>
+                        <li>
+                            <strong>Defensive Player of the Year Candidate</strong><br>
+                            First rookie since Tim Duncan to receive serious DPOY consideration, finishing top 5 in voting.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <h2>Beyond the Blocks</h2>
+                <p><strong>Opponent Field Goal % at Rim:</strong> When Wembanyama is defending the rim, opponents shoot just 42% within 6 feet of the basket, a staggering 18% below the league average. This deterrent effect is one of the best in NBA history.</p>
+
+                <p><strong>Versatility:</strong> Unlike traditional rim protectors, Wembanyama can switch onto guards on the perimeter and hold his own. His lateral quickness and length allow him to contest three-pointers and defend in space, making him a truly complete defensive player.</p>
+
+                <p><strong>Defensive IQ:</strong> His positioning, anticipation, and understanding of offensive tendencies allow him to be in the right place at the right time. He doesn't just rely on athleticism; he's a cerebral defender who studies opponents and adjusts throughout games.</p>
+            </div>
+
+            <div class="detail-section">
+                <h2>Impact on Team Defense</h2>
+                <p>The San Antonio Spurs' defensive rating improved by 8.5 points per 100 possessions when Wembanyama was on the court during his rookie season. This single-player defensive impact is comparable to all-time great defenders like Hakeem Olajuwon and Dikembe Mutombo.</p>
+
+                <p>Teams actively avoid attacking the paint when Wembanyama is in the game, leading to more contested three-point attempts and rushed offensive possessions. This ripple effect transforms the entire Spurs defense, even when he's not directly involved in the play.</p>
+            </div>
+
+            <div class="detail-section">
+                <h2>Expert Analysis</h2>
+                <p><strong>NBA Analyst:</strong> "Wembanyama's defensive impact is historically significant. We haven't seen a defensive presence like this from a rookie since Tim Duncan, and arguably not since Bill Russell. He's redefining what we thought was possible for a defensive player."</p>
+
+                <p><strong>Former NBA Center:</strong> "As someone who played in the paint for 15 years, I can tell you – I've never seen anything like this. The combination of size, timing, and mobility is unprecedented. He makes shots you think you have look impossible."</p>
+
+                <p><strong>Opposing Player:</strong> "You know he's there every time you drive. It's not just about the blocks; it's the shots you don't take because you know he's coming. That's what makes him special – the psychological impact."</p>
+            </div>
+
+            <div class="detail-section">
+                <h2>Historic Comparisons</h2>
+                <p>Wembanyama's rookie season defensive metrics compare favorably to the greatest defensive seasons in NBA history:</p>
+                <ul>
+                    <li>Block rate higher than Hakeem Olajuwon's rookie season</li>
+                    <li>Defensive rating comparable to prime Dwight Howard</li>
+                    <li>Shot contest rate exceeds prime Rudy Gobert</li>
+                    <li>Defensive versatility metrics similar to Kevin Garnett</li>
+                </ul>
+            </div>
+
+            <a href="index.html#gallery" class="back-button">← Back to Gallery</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

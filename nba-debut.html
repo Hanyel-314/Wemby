@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Debut - Victor Wembanyama</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .detail-page {
+            min-height: 100vh;
+            padding-top: 80px;
+            background: var(--bg-light);
+        }
+        .detail-hero {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+            padding: 4rem 0;
+            color: white;
+            text-align: center;
+        }
+        .detail-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .detail-hero .date {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+        .back-button {
+            display: inline-block;
+            margin: 2rem 0;
+            padding: 0.8rem 2rem;
+            background: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+        .back-button:hover {
+            background: #ff5722;
+            transform: translateY(-2px);
+        }
+        .detail-content {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+        .detail-image {
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .detail-section {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .detail-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        .detail-section p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .stats-grid-small {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .stat-box {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--bg-light);
+            border-radius: 8px;
+        }
+        .stat-box .number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .stat-box .label {
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">VICTOR WEMBANYAMA</div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#stats">Stats</a></li>
+                <li><a href="index.html#achievements">Achievements</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="detail-page">
+        <div class="detail-hero">
+            <div class="container">
+                <h1>NBA Debut</h1>
+                <p class="date">October 25, 2023 | AT&T Center, San Antonio</p>
+            </div>
+        </div>
+
+        <div class="detail-content">
+            <a href="index.html#gallery" class="back-button">← Back to Gallery</a>
+
+            <img src="images/wembanyama-debut.jpg" alt="Victor Wembanyama NBA Debut" class="detail-image">
+
+            <div class="detail-section">
+                <h2>The Long-Awaited Debut</h2>
+                <p>On October 25, 2023, basketball fans around the world tuned in to witness Victor Wembanyama's first official NBA game. The San Antonio Spurs hosted the Dallas Mavericks at the AT&T Center, and the anticipation was palpable. This wasn't just any rookie debut – it was the unveiling of a player who had been called a "generational talent" and "the future of basketball."</p>
+
+                <p>From the opening tip-off, Wembanyama showed why he was worth the hype. His length disrupted passing lanes, his shot-blocking ability altered the Mavericks' offensive approach, and his skill set on the offensive end showcased the versatility that made him special.</p>
+            </div>
+
+            <div class="detail-section">
+                <h2>Debut Stats</h2>
+                <div class="stats-grid-small">
+                    <div class="stat-box">
+                        <span class="number">15</span>
+                        <span class="label">Points</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">5</span>
+                        <span class="label">Rebounds</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">2</span>
+                        <span class="label">Assists</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">2</span>
+                        <span class="label">Blocks</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="number">23</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-section">
+                <h2>Memorable Moments</h2>
+                <p><strong>First NBA Points:</strong> Wembanyama scored his first NBA points on a smooth mid-range jumper, showcasing the shooting touch that makes him such a unique big man. The crowd erupted as the scoreboard officially recorded his first points in the league.</p>
+
+                <p><strong>Defensive Presence:</strong> His two blocks in his debut gave a glimpse of the defensive anchor he would become. One particular sequence saw him contest three consecutive shots, forcing the Mavericks to completely alter their offensive strategy.</p>
+
+                <p><strong>Court Vision:</strong> His assists demonstrated his passing ability and basketball IQ, threading passes through tight windows that most 7-foot-4 players wouldn't even attempt.</p>
+            </div>
+
+            <div class="detail-section">
+                <h2>Post-Game Reactions</h2>
+                <p><strong>Gregg Popovich:</strong> "For a first game, he showed poise and maturity beyond his years. There are things to work on, of course, but you can see the special talent. He's going to be great for us and for the league."</p>
+
+                <p><strong>Victor Wembanyama:</strong> "It felt amazing to finally play an NBA game. The speed is different, the physicality is different, but I'm learning. I'm just grateful for the opportunity and excited to keep improving."</p>
+
+                <p><strong>Luka Dončić (Mavericks):</strong> "He's the real deal. Playing against him is different than anything else. His length changes everything on both ends of the floor."</p>
+            </div>
+
+            <a href="index.html#gallery" class="back-button">← Back to Gallery</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
